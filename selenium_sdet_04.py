@@ -40,7 +40,7 @@ else:
 time.sleep(5)
 
 # This is close only one window
-print("Finished the testing")
+print("Finished the testing....")
 driver.close()
 
 # quit command can close all the browsers at the same time
