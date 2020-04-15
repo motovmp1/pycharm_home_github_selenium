@@ -1,5 +1,6 @@
 # This is a github selenium with pycharm - Test all elements for second time
 import time
+import sys
 import selenium
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -37,7 +38,24 @@ if user_display is True:
 else:
     print("Fail")
 
-time.sleep(5)
+password_user = (driver.find_element_by_xpath("//input[@name='password']"))
+
+username.send_keys("tutorial")
+time.sleep(1)
+password_user.send_keys("tutorial")
+
+driver.find_element_by_xpath("//input[@name='login']").click()
+
+time1 = 0
+for time1 in range(1, 70, 1):
+    print(time1, sep=' ', end='. ', flush=True)
+    time.sleep(1)
+    time1 += 1
+
+radio_btn_round_trip = driver.find_element_by_xpath("//body//b//input[1]")
+
+print("Radio button is round trip")
+print(radio_btn_round_trip.is_selected())
 
 # This is close only one window
 print("Finished the testing....")
