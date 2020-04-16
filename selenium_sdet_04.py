@@ -57,7 +57,7 @@ for time1 in range(1, 70, 1):
         break
 
 radio_btn_round_trip = driver.find_element_by_xpath("//body//b//input[1]")
-
+print("")
 print("Radio button is round trip")
 print(radio_btn_round_trip.is_selected())
 
