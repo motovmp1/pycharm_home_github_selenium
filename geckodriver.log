@@ -257,3 +257,5 @@
 1586957981037	Marionette	INFO	Listening on port 46831
 1586957981092	Marionette	WARN	TLS certificate errors will be ignored for this session
 1586958065310	Marionette	INFO	Stopped listening on port 46831
+1586958130282	Marionette	INFO	Stopped listening on port 38067
+1586958131510	Marionette	INFO	Stopped listening on port 46859
