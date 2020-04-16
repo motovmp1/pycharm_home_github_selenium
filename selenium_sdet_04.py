@@ -46,11 +46,15 @@ password_user.send_keys("tutorial")
 
 driver.find_element_by_xpath("//input[@name='login']").click()
 
-time1 = 0
+
+print(driver.title)
+
 for time1 in range(1, 70, 1):
-    print(time1, sep=' ', end='. ', flush=True)
+    print(time1,  end='. ', flush=True)
     time.sleep(1)
     time1 += 1
+    if driver.title == "Find a Flight: Mercury Tours:":
+        break
 
 radio_btn_round_trip = driver.find_element_by_xpath("//body//b//input[1]")
 
