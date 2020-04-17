@@ -1,7 +1,7 @@
 import openpyxl
 import time
 
-path = "/home/elsys/Desktop/Teste/pycharm_home_github_selenium/readexcel.xlsx"
+path = "/home/elsys/Desktop/Teste/pycharm_home_github_selenium/readexcel_write.xlsx"
 
 workbook = openpyxl.load_workbook(path)
 
