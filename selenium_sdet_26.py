@@ -3,6 +3,7 @@ import time
 import selenium
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+import excel_utilits
 
 driver = webdriver.Firefox()
 
@@ -18,10 +19,26 @@ print(driver.title)
 time.sleep(1)
 print(driver.current_url)
 
-#           ***    Test Case    ***
+# ********** Test Case ***********************************************************
 
+# path from excel file
+path = "/home/elsys/Desktop/Teste/pycharm_home_github_selenium/login_class_26.xlsx"
 
-#           *** End test case   ***
+# number of rows that we have
+numbers_rows = excel_utilits.get_row_count(path, "Sheet1")
+print(numbers_rows)
+
+for r in range(2, numbers_rows + 1):
+    username = excel_utilits.read_data_file(path, "Sheet1", r, 1)
+    password = excel_utilits.read_data_file(path, "Sheet1", r, 2)
+
+    driver.find_element_by_xpath("//input[@name='userName']").send_keys("")
+    time.sleep(2)
+    driver.find_element_by_xpath("//input[@name='password']").send_keys("")
+    time.sleep(2)
+    driver.find_element_by_xpath("//input[@name='login']").click()
+
+# ***************************** End test case   *******************************************
 
 
 #       *** Close session   ***
