@@ -46,7 +46,7 @@ for r in range(2, numbers_rows + 1):
     driver.find_element_by_xpath("//input[@name='password']").send_keys(password)
     time.sleep(2)
     driver.find_element_by_xpath("//input[@name='login']").click()
-    time.sleep(25)
+    time.sleep(45)
 
     if driver.title == "Find a Flight: Mercury Tours:":
         print(driver.title)
