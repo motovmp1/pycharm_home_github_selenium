@@ -1314,3 +1314,16 @@ Exiting due to channel error.
 1587225769307	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1587225770833	Marionette	INFO	Listening on port 35325
 1587225770907	Marionette	WARN	TLS certificate errors will be ignored for this session
+1587225957602	Marionette	INFO	Stopped listening on port 43225
+1587225957738	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:244:13
+TimedPromise@chrome://marionette/content/sync.js:229:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1587226005383	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:244:13
+TimedPromise@chrome://marionette/content/sync.js:229:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1587226009391	Marionette	INFO	Stopped listening on port 39823
+1587226015218	Marionette	INFO	Stopped listening on port 35325
