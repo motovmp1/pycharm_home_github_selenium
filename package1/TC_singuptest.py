@@ -1,7 +1,7 @@
 import unittest
 
 
-class LoginTest(unittest.TestCase):
+class SignupTest(unittest.TestCase):
 
     def test_signup_email(self):
         print("This is signup by email test")
