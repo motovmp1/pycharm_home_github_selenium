@@ -13,7 +13,11 @@ class Test(unittest.TestCase):
         title_of_page = driver.title
         print(title_of_page)
         time.sleep(2)
-        self.assertEqual("Google", title_of_page, "Page is not the same")
+        # self.assertEqual("Google", title_of_page, "Page is not the same")
+        self.assertTrue(title_of_page == "Google")
+        time.sleep(3)
+        print("closing navigator")
+        driver.close()
 
 
 if __name__ == "__main__":
