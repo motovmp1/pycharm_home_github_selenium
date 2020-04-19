@@ -2144,3 +2144,12 @@ JavaScript error: resource://gre/modules/IndexedDB.jsm, line 370: UnknownError: 
 1587299101504	Marionette	INFO	Listening on port 39433
 1587299101547	Marionette	WARN	TLS certificate errors will be ignored for this session
 1587299108979	Marionette	INFO	Stopped listening on port 39433
+1587299150421	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.G5p2NouSde61"
+1587299150682	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1587299151070	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1587299151070	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1587299151070	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1587299151070	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1587299152576	Marionette	INFO	Listening on port 41275
+1587299152628	Marionette	WARN	TLS certificate errors will be ignored for this session
+1587299160776	Marionette	INFO	Stopped listening on port 41275
