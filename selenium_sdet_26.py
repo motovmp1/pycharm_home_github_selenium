@@ -54,6 +54,7 @@ for r in range(2, numbers_rows + 1):
         print("Test is PASS")
         excel_utilits.write_data_file(path, "Sheet1", r, 3, "PASS")
         excel_utilits.change_cell_color_pass(path, "Sheet1", r, 3, "PASS", cell_color)
+        loggind_file_1.logger.warn("PASS for username and password")
     else:
         print("Test is FAIL")
         excel_utilits.write_data_file(path, "Sheet1", r, 3, "FAIL")

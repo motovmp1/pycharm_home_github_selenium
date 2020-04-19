@@ -165,3 +165,10 @@ CRITICAL:root:This is a critical message
 2020-04-19 10:53:28,478:, CRITICAL:, Fail to login in the step test:
 2020-04-19 10:54:15,571:, CRITICAL:, Fail to login in the step test:
 2020-04-19 10:55:02,445:, CRITICAL:, Fail to login in the step test:
+2020-04-19 12:02:16,167:, WARNING:, This is a warning message:
+2020-04-19 12:02:16,167:, ERROR:, This is a error message:
+2020-04-19 12:02:16,167:, CRITICAL:, This is a critical message:
+2020-04-19 12:03:08,667:, WARNING:, PASS for username and password:
+2020-04-19 12:03:59,091:, CRITICAL:, Fail to login in the step test:
+2020-04-19 12:04:46,539:, CRITICAL:, Fail to login in the step test:
+2020-04-19 12:05:34,013:, CRITICAL:, Fail to login in the step test:
