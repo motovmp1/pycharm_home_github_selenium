@@ -1,4 +1,6 @@
 import unittest
+import sys
+
 
 from package1.TC_loginTest import LoginTest
 from package1.TC_singuptest import SignupTest
@@ -6,12 +8,15 @@ from package1.TC_singuptest import SignupTest
 from package2.TC_payment_test import PaymentTest
 from package2.TC_payment_return import PaymentReturn
 
+sys.path.append("/home/elsys/Desktop/Teste/pycharm_home_github_selenium/package1")
+sys.path.append("/home/elsys/Desktop/Teste/pycharm_home_github_selenium/package2")
+
+
 
 TC1 = unittest.TestLoader().loadTestsFromTestCase(LoginTest)
 TC2 = unittest.TestLoader().loadTestsFromTestCase(SignupTest)
 TC3 = unittest.TestLoader().loadTestsFromTestCase(PaymentTest)
 TC4 = unittest.TestLoader().loadTestsFromTestCase(PaymentReturn)
-
 
 # Sanity test case suites
 sanityTestSuite = unittest.TestSuite([TC1, TC2])
@@ -26,7 +31,6 @@ functional_test = unittest.TestSuite([TC3, TC4])
 # Master test Suite case
 master_suite = unittest.TestSuite([TC1, TC2, TC3, TC4])
 unittest.TextTestRunner(verbosity=2).run(master_suite)
-
 
 '''
     verbosity = 2
