@@ -7,6 +7,7 @@ import excel_utilits
 import openpyxl
 from openpyxl.styles import Font, Color, Alignment, Border, Side, colors
 from openpyxl.styles import PatternFill, colors
+import loggind_file_1
 
 red_background = PatternFill(bgColor=colors.RED)
 
@@ -57,6 +58,7 @@ for r in range(2, numbers_rows + 1):
         print("Test is FAIL")
         excel_utilits.write_data_file(path, "Sheet1", r, 3, "FAIL")
         excel_utilits.change_cell_color_fail(path, "Sheet1", r, 3, "FAIL", cell_color)
+        loggind_file_1.logger.critical("Fail to login in the step test")
     driver.find_element_by_link_text("Home").click()
     time.sleep(4)
 # ***************************** End test case   *******************************************

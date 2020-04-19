@@ -1,0 +1,167 @@
+DEBUG:root:This is a debug message
+INFO:root:This is a info message
+WARNING:root:This is a warning message
+ERROR:root:This is a error message
+CRITICAL:root:This is a critical message
+2020-04-19 10:35:01,999: DEBUG: This is a debug message:
+2020-04-19 10:35:01,999: INFO: This is a info message:
+2020-04-19 10:35:01,999: WARNING: This is a warning message:
+2020-04-19 10:35:01,999: ERROR: This is a error message:
+2020-04-19 10:35:01,999: CRITICAL: This is a critical message:
+2020-04-19 10:39:09,598:, DEBUG:, This is a debug message:
+2020-04-19 10:39:09,598:, INFO:, This is a info message:
+2020-04-19 10:39:09,598:, WARNING:, This is a warning message:
+2020-04-19 10:39:09,598:, ERROR:, This is a error message:
+2020-04-19 10:39:09,598:, CRITICAL:, This is a critical message:
+2020-04-19 10:42:16,315:, DEBUG:, This is a debug message:
+2020-04-19 10:42:16,315:, INFO:, This is a info message:
+2020-04-19 10:42:16,315:, WARNING:, This is a warning message:
+2020-04-19 10:42:16,315:, ERROR:, This is a error message:
+2020-04-19 10:42:16,315:, CRITICAL:, This is a critical message:
+2020-04-19 10:46:09,431:, DEBUG:, This is a debug message:
+2020-04-19 10:46:09,431:, INFO:, This is a info message:
+2020-04-19 10:46:09,431:, WARNING:, This is a warning message:
+2020-04-19 10:46:09,431:, ERROR:, This is a error message:
+2020-04-19 10:46:09,431:, CRITICAL:, This is a critical message:
+2020-04-19 10:46:09,438:, DEBUG:, POST http://127.0.0.1:48211/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "marionette": true}}:
+2020-04-19 10:46:09,438:, DEBUG:, Starting new HTTP connection (1): 127.0.0.1:48211:
+2020-04-19 10:46:11,503:, DEBUG:, http://127.0.0.1:48211 "POST /session HTTP/1.1" 200 713:
+2020-04-19 10:46:11,503:, DEBUG:, Finished Request:
+2020-04-19 10:46:11,503:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/url {"url": "http://www.newtours.demoaut.com/"}:
+2020-04-19 10:46:13,833:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/url HTTP/1.1" 200 14:
+2020-04-19 10:46:13,834:, DEBUG:, Finished Request:
+2020-04-19 10:46:13,835:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/timeouts {"implicit": 10000}:
+2020-04-19 10:46:13,847:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/timeouts HTTP/1.1" 200 14:
+2020-04-19 10:46:13,847:, DEBUG:, Finished Request:
+2020-04-19 10:46:14,849:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/window/maximize {}:
+2020-04-19 10:46:15,158:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/window/maximize HTTP/1.1" 200 52:
+2020-04-19 10:46:15,158:, DEBUG:, Finished Request:
+2020-04-19 10:46:16,160:, DEBUG:, GET http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/title {}:
+2020-04-19 10:46:16,166:, DEBUG:, http://127.0.0.1:48211 "GET /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/title HTTP/1.1" 200 34:
+2020-04-19 10:46:16,167:, DEBUG:, Finished Request:
+2020-04-19 10:46:17,168:, DEBUG:, GET http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/url {}:
+2020-04-19 10:46:17,174:, DEBUG:, http://127.0.0.1:48211 "GET /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/url HTTP/1.1" 200 44:
+2020-04-19 10:46:17,175:, DEBUG:, Finished Request:
+2020-04-19 10:46:17,251:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element {"using": "xpath", "value": "//input[@name='userName']"}:
+2020-04-19 10:46:17,255:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element HTTP/1.1" 200 88:
+2020-04-19 10:46:17,255:, DEBUG:, Finished Request:
+2020-04-19 10:46:17,255:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/4fadf67c-aab2-436e-a81d-2d577913436a/value {"text": "tutorial", "value": ["t", "u", "t", "o", "r", "i", "a", "l"], "id": "4fadf67c-aab2-436e-a81d-2d577913436a"}:
+2020-04-19 10:46:17,270:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/4fadf67c-aab2-436e-a81d-2d577913436a/value HTTP/1.1" 200 14:
+2020-04-19 10:46:17,270:, DEBUG:, Finished Request:
+2020-04-19 10:46:19,273:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element {"using": "xpath", "value": "//input[@name='password']"}:
+2020-04-19 10:46:19,279:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element HTTP/1.1" 200 88:
+2020-04-19 10:46:19,279:, DEBUG:, Finished Request:
+2020-04-19 10:46:19,279:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/5375e95b-961d-4a01-ba65-1f51168fe997/value {"text": "tutorial", "value": ["t", "u", "t", "o", "r", "i", "a", "l"], "id": "5375e95b-961d-4a01-ba65-1f51168fe997"}:
+2020-04-19 10:46:19,303:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/5375e95b-961d-4a01-ba65-1f51168fe997/value HTTP/1.1" 200 14:
+2020-04-19 10:46:19,304:, DEBUG:, Finished Request:
+2020-04-19 10:46:21,304:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element {"using": "xpath", "value": "//input[@name='login']"}:
+2020-04-19 10:46:21,318:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element HTTP/1.1" 200 88:
+2020-04-19 10:46:21,319:, DEBUG:, Finished Request:
+2020-04-19 10:46:21,319:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/c20bc1dd-f99c-4250-bbf4-bb144bf92fd7/click {"id": "c20bc1dd-f99c-4250-bbf4-bb144bf92fd7"}:
+2020-04-19 10:46:26,564:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/c20bc1dd-f99c-4250-bbf4-bb144bf92fd7/click HTTP/1.1" 200 14:
+2020-04-19 10:46:26,565:, DEBUG:, Finished Request:
+2020-04-19 10:47:01,601:, DEBUG:, GET http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/title {}:
+2020-04-19 10:47:01,608:, DEBUG:, http://127.0.0.1:48211 "GET /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/title HTTP/1.1" 200 41:
+2020-04-19 10:47:01,608:, DEBUG:, Finished Request:
+2020-04-19 10:47:01,609:, DEBUG:, GET http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/title {}:
+2020-04-19 10:47:01,614:, DEBUG:, http://127.0.0.1:48211 "GET /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/title HTTP/1.1" 200 41:
+2020-04-19 10:47:01,614:, DEBUG:, Finished Request:
+2020-04-19 10:47:01,724:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element {"using": "link text", "value": "Home"}:
+2020-04-19 10:47:01,739:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element HTTP/1.1" 200 88:
+2020-04-19 10:47:01,740:, DEBUG:, Finished Request:
+2020-04-19 10:47:01,740:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/3447c82d-b42e-4241-b34c-3f51381f4e30/click {"id": "3447c82d-b42e-4241-b34c-3f51381f4e30"}:
+2020-04-19 10:47:03,383:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/3447c82d-b42e-4241-b34c-3f51381f4e30/click HTTP/1.1" 200 14:
+2020-04-19 10:47:03,384:, DEBUG:, Finished Request:
+2020-04-19 10:47:07,448:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element {"using": "xpath", "value": "//input[@name='userName']"}:
+2020-04-19 10:47:07,451:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element HTTP/1.1" 200 88:
+2020-04-19 10:47:07,451:, DEBUG:, Finished Request:
+2020-04-19 10:47:07,451:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/5b1ce6d7-bbe4-4e57-8d46-c0bb4a23475c/value {"text": "tutorial", "value": ["t", "u", "t", "o", "r", "i", "a", "l"], "id": "5b1ce6d7-bbe4-4e57-8d46-c0bb4a23475c"}:
+2020-04-19 10:47:07,462:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/5b1ce6d7-bbe4-4e57-8d46-c0bb4a23475c/value HTTP/1.1" 200 14:
+2020-04-19 10:47:07,462:, DEBUG:, Finished Request:
+2020-04-19 10:47:09,464:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element {"using": "xpath", "value": "//input[@name='password']"}:
+2020-04-19 10:47:09,475:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element HTTP/1.1" 200 88:
+2020-04-19 10:47:09,476:, DEBUG:, Finished Request:
+2020-04-19 10:47:09,476:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/c657da43-f519-46ab-a4b2-ddbfe3464c25/value {"text": "tutorial", "value": ["t", "u", "t", "o", "r", "i", "a", "l"], "id": "c657da43-f519-46ab-a4b2-ddbfe3464c25"}:
+2020-04-19 10:47:09,535:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/c657da43-f519-46ab-a4b2-ddbfe3464c25/value HTTP/1.1" 200 14:
+2020-04-19 10:47:09,535:, DEBUG:, Finished Request:
+2020-04-19 10:47:11,538:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element {"using": "xpath", "value": "//input[@name='login']"}:
+2020-04-19 10:47:11,548:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element HTTP/1.1" 200 88:
+2020-04-19 10:47:11,549:, DEBUG:, Finished Request:
+2020-04-19 10:47:11,550:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/3e6f171c-c230-4778-bd1d-11aaa34f138f/click {"id": "3e6f171c-c230-4778-bd1d-11aaa34f138f"}:
+2020-04-19 10:47:16,790:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/3e6f171c-c230-4778-bd1d-11aaa34f138f/click HTTP/1.1" 200 14:
+2020-04-19 10:47:16,791:, DEBUG:, Finished Request:
+2020-04-19 10:47:51,826:, DEBUG:, GET http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/title {}:
+2020-04-19 10:47:51,832:, DEBUG:, http://127.0.0.1:48211 "GET /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/title HTTP/1.1" 200 34:
+2020-04-19 10:47:51,833:, DEBUG:, Finished Request:
+2020-04-19 10:47:51,965:, CRITICAL:, Fail to login in the step test:
+2020-04-19 10:47:51,965:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element {"using": "link text", "value": "Home"}:
+2020-04-19 10:47:51,974:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element HTTP/1.1" 200 88:
+2020-04-19 10:47:51,974:, DEBUG:, Finished Request:
+2020-04-19 10:47:51,974:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/81c092b4-1f11-4351-a005-053c75cd339d/click {"id": "81c092b4-1f11-4351-a005-053c75cd339d"}:
+2020-04-19 10:47:53,502:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/81c092b4-1f11-4351-a005-053c75cd339d/click HTTP/1.1" 200 14:
+2020-04-19 10:47:53,503:, DEBUG:, Finished Request:
+2020-04-19 10:47:57,563:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element {"using": "xpath", "value": "//input[@name='userName']"}:
+2020-04-19 10:47:57,567:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element HTTP/1.1" 200 88:
+2020-04-19 10:47:57,567:, DEBUG:, Finished Request:
+2020-04-19 10:47:57,567:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/a34ef4dc-7b95-4ad1-841d-a702efd4cc09/value {"text": "mno", "value": ["m", "n", "o"], "id": "a34ef4dc-7b95-4ad1-841d-a702efd4cc09"}:
+2020-04-19 10:47:57,577:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/a34ef4dc-7b95-4ad1-841d-a702efd4cc09/value HTTP/1.1" 200 14:
+2020-04-19 10:47:57,577:, DEBUG:, Finished Request:
+2020-04-19 10:47:59,578:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element {"using": "xpath", "value": "//input[@name='password']"}:
+2020-04-19 10:47:59,590:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element HTTP/1.1" 200 88:
+2020-04-19 10:47:59,591:, DEBUG:, Finished Request:
+2020-04-19 10:47:59,591:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/c757de4d-e9bb-4e64-8ea4-3c650d7ca5ae/value {"text": "asdass", "value": ["a", "s", "d", "a", "s", "s"], "id": "c757de4d-e9bb-4e64-8ea4-3c650d7ca5ae"}:
+2020-04-19 10:47:59,628:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/c757de4d-e9bb-4e64-8ea4-3c650d7ca5ae/value HTTP/1.1" 200 14:
+2020-04-19 10:47:59,629:, DEBUG:, Finished Request:
+2020-04-19 10:48:01,629:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element {"using": "xpath", "value": "//input[@name='login']"}:
+2020-04-19 10:48:01,642:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element HTTP/1.1" 200 88:
+2020-04-19 10:48:01,642:, DEBUG:, Finished Request:
+2020-04-19 10:48:01,643:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/51dee100-fd56-4b74-8bac-37030334bd58/click {"id": "51dee100-fd56-4b74-8bac-37030334bd58"}:
+2020-04-19 10:48:04,154:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/51dee100-fd56-4b74-8bac-37030334bd58/click HTTP/1.1" 200 14:
+2020-04-19 10:48:04,155:, DEBUG:, Finished Request:
+2020-04-19 10:48:39,190:, DEBUG:, GET http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/title {}:
+2020-04-19 10:48:39,196:, DEBUG:, http://127.0.0.1:48211 "GET /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/title HTTP/1.1" 200 34:
+2020-04-19 10:48:39,197:, DEBUG:, Finished Request:
+2020-04-19 10:48:39,331:, CRITICAL:, Fail to login in the step test:
+2020-04-19 10:48:39,331:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element {"using": "link text", "value": "Home"}:
+2020-04-19 10:48:39,343:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element HTTP/1.1" 200 88:
+2020-04-19 10:48:39,343:, DEBUG:, Finished Request:
+2020-04-19 10:48:39,343:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/1f6aa1d1-2c4b-4296-9949-29683c5cd63a/click {"id": "1f6aa1d1-2c4b-4296-9949-29683c5cd63a"}:
+2020-04-19 10:48:40,616:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/1f6aa1d1-2c4b-4296-9949-29683c5cd63a/click HTTP/1.1" 200 14:
+2020-04-19 10:48:40,616:, DEBUG:, Finished Request:
+2020-04-19 10:48:44,680:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element {"using": "xpath", "value": "//input[@name='userName']"}:
+2020-04-19 10:48:44,683:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element HTTP/1.1" 200 88:
+2020-04-19 10:48:44,684:, DEBUG:, Finished Request:
+2020-04-19 10:48:44,684:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/f14f3fd8-96ee-43bb-8b2a-f32ff6f3d230/value {"text": "mno", "value": ["m", "n", "o"], "id": "f14f3fd8-96ee-43bb-8b2a-f32ff6f3d230"}:
+2020-04-19 10:48:44,693:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/f14f3fd8-96ee-43bb-8b2a-f32ff6f3d230/value HTTP/1.1" 200 14:
+2020-04-19 10:48:44,694:, DEBUG:, Finished Request:
+2020-04-19 10:48:46,696:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element {"using": "xpath", "value": "//input[@name='password']"}:
+2020-04-19 10:48:46,709:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element HTTP/1.1" 200 88:
+2020-04-19 10:48:46,710:, DEBUG:, Finished Request:
+2020-04-19 10:48:46,710:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/d2409fc7-21e8-46d3-bb98-7a05f08f24c3/value {"text": "asddass", "value": ["a", "s", "d", "d", "a", "s", "s"], "id": "d2409fc7-21e8-46d3-bb98-7a05f08f24c3"}:
+2020-04-19 10:48:46,755:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/d2409fc7-21e8-46d3-bb98-7a05f08f24c3/value HTTP/1.1" 200 14:
+2020-04-19 10:48:46,756:, DEBUG:, Finished Request:
+2020-04-19 10:48:48,758:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element {"using": "xpath", "value": "//input[@name='login']"}:
+2020-04-19 10:48:48,768:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element HTTP/1.1" 200 88:
+2020-04-19 10:48:48,769:, DEBUG:, Finished Request:
+2020-04-19 10:48:48,770:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/3d1874a1-7c6e-478a-b106-53e7e2aae197/click {"id": "3d1874a1-7c6e-478a-b106-53e7e2aae197"}:
+2020-04-19 10:48:51,066:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/3d1874a1-7c6e-478a-b106-53e7e2aae197/click HTTP/1.1" 200 14:
+2020-04-19 10:48:51,067:, DEBUG:, Finished Request:
+2020-04-19 10:49:26,070:, DEBUG:, GET http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/title {}:
+2020-04-19 10:49:26,076:, DEBUG:, http://127.0.0.1:48211 "GET /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/title HTTP/1.1" 200 34:
+2020-04-19 10:49:26,077:, DEBUG:, Finished Request:
+2020-04-19 10:49:26,167:, CRITICAL:, Fail to login in the step test:
+2020-04-19 10:49:26,167:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element {"using": "link text", "value": "Home"}:
+2020-04-19 10:49:26,177:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element HTTP/1.1" 200 88:
+2020-04-19 10:49:26,177:, DEBUG:, Finished Request:
+2020-04-19 10:49:26,177:, DEBUG:, POST http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/e2fd54b4-c08b-49e8-9429-70088ec3c3eb/click {"id": "e2fd54b4-c08b-49e8-9429-70088ec3c3eb"}:
+2020-04-19 10:49:27,417:, DEBUG:, http://127.0.0.1:48211 "POST /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/element/e2fd54b4-c08b-49e8-9429-70088ec3c3eb/click HTTP/1.1" 200 14:
+2020-04-19 10:49:27,418:, DEBUG:, Finished Request:
+2020-04-19 10:49:36,425:, DEBUG:, DELETE http://127.0.0.1:48211/session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/window {}:
+2020-04-19 10:49:36,722:, DEBUG:, http://127.0.0.1:48211 "DELETE /session/1031d6c0-3a6a-48d1-9cbf-6c3a63fab32a/window HTTP/1.1" 200 12:
+2020-04-19 10:49:36,722:, DEBUG:, Finished Request:
+2020-04-19 10:51:46,281:, WARNING:, This is a warning message:
+2020-04-19 10:51:46,281:, ERROR:, This is a error message:
+2020-04-19 10:51:46,281:, CRITICAL:, This is a critical message:
+2020-04-19 10:53:28,478:, CRITICAL:, Fail to login in the step test:
+2020-04-19 10:54:15,571:, CRITICAL:, Fail to login in the step test:
+2020-04-19 10:55:02,445:, CRITICAL:, Fail to login in the step test:
