@@ -14,10 +14,12 @@ class AppTesting(unittest.TestCase):
     def test_search3(self):
         print(" This is test searching number 3")
 
+    @unittest.skip("this is a skip this case")
     def test_search4(self):
         print(" This is test searching number 4")
 
     def test_search5(self):
+        print("")
         print(" This is test searching number 5")
 
     def test_search6(self):
