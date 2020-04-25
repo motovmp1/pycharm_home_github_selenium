@@ -39,8 +39,8 @@ print("###########################################################")
 for interaction in range(1, sheet.max_row+1):
     # quando o teste bate imprimi apenas a linha que interessa
     if sheet.cell(row=interaction, column=1).value == "Testcase2":
-        for join in range(1, sheet.max_column+1):
-            print(sheet.cell(row=interaction, column=join).value)
+        for join in range(2, sheet.max_column+1):
+            print(sheet.cell(row=interaction, column=join).value, end=" | ")
 print("")
 print("############################################################")
 
