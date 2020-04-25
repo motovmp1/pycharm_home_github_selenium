@@ -16,3 +16,11 @@ cell2 = sheet.cell(row=2, column=2)
 print(cell2)
 print(cell2.value)
 
+print(sheet.max_row)
+print(sheet.max_column)
+
+# value of cell
+print(sheet['A5'])
+# value inside the cell
+print(sheet['A5'].value)
+
